@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DFDA43992060B14F00083CBA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DFDA43982060B14F00083CBA /* AppDelegate.m */; };
+		DFDA439C2060B14F00083CBA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFDA439B2060B14F00083CBA /* ViewController.m */; };
+		DFDA439F2060B14F00083CBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFDA439D2060B14F00083CBA /* Main.storyboard */; };
+		DFDA43A12060B14F00083CBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFDA43A02060B14F00083CBA /* Assets.xcassets */; };
+		DFDA43A42060B14F00083CBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFDA43A22060B14F00083CBA /* LaunchScreen.storyboard */; };
+		DFDA43A72060B14F00083CBA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DFDA43A62060B14F00083CBA /* main.m */; };
+		DFDA43B12060B14F00083CBA /* ZMHLoadingViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DFDA43B02060B14F00083CBA /* ZMHLoadingViewTests.m */; };
+		DFDA43BC2060B14F00083CBA /* ZMHLoadingViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DFDA43BB2060B14F00083CBA /* ZMHLoadingViewUITests.m */; };
+		DFDA43D02060B15D00083CBA /* ZMHLoadFailedView.m in Sources */ = {isa = PBXBuildFile; fileRef = DFDA43CA2060B15C00083CBA /* ZMHLoadFailedView.m */; };
+		DFDA43D12060B15D00083CBA /* ZMHLoadFailedView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFDA43CB2060B15C00083CBA /* ZMHLoadFailedView.xib */; };
+		DFDA43D22060B15D00083CBA /* ZMHLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = DFDA43CC2060B15C00083CBA /* ZMHLoadingView.m */; };
+		DFDA43D32060B15D00083CBA /* ZMHLoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFDA43CF2060B15C00083CBA /* ZMHLoadingView.xib */; };
+		DFDA43D62060B38100083CBA /* FailedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFDA43D52060B38100083CBA /* FailedViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DFDA43AD2060B14F00083CBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFDA438C2060B14F00083CBA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFDA43932060B14F00083CBA;
+			remoteInfo = ZMHLoadingView;
+		};
+		DFDA43B82060B14F00083CBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFDA438C2060B14F00083CBA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFDA43932060B14F00083CBA;
+			remoteInfo = ZMHLoadingView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DFDA43942060B14F00083CBA /* ZMHLoadingView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZMHLoadingView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFDA43972060B14F00083CBA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DFDA43982060B14F00083CBA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DFDA439A2060B14F00083CBA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DFDA439B2060B14F00083CBA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DFDA439E2060B14F00083CBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DFDA43A02060B14F00083CBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DFDA43A32060B14F00083CBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DFDA43A52060B14F00083CBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFDA43A62060B14F00083CBA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DFDA43AC2060B14F00083CBA /* ZMHLoadingViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZMHLoadingViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFDA43B02060B14F00083CBA /* ZMHLoadingViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZMHLoadingViewTests.m; sourceTree = "<group>"; };
+		DFDA43B22060B14F00083CBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFDA43B72060B14F00083CBA /* ZMHLoadingViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZMHLoadingViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFDA43BB2060B14F00083CBA /* ZMHLoadingViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZMHLoadingViewUITests.m; sourceTree = "<group>"; };
+		DFDA43BD2060B14F00083CBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFDA43CA2060B15C00083CBA /* ZMHLoadFailedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMHLoadFailedView.m; sourceTree = "<group>"; };
+		DFDA43CB2060B15C00083CBA /* ZMHLoadFailedView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZMHLoadFailedView.xib; sourceTree = "<group>"; };
+		DFDA43CC2060B15C00083CBA /* ZMHLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMHLoadingView.m; sourceTree = "<group>"; };
+		DFDA43CD2060B15C00083CBA /* ZMHLoadFailedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMHLoadFailedView.h; sourceTree = "<group>"; };
+		DFDA43CE2060B15C00083CBA /* ZMHLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMHLoadingView.h; sourceTree = "<group>"; };
+		DFDA43CF2060B15C00083CBA /* ZMHLoadingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZMHLoadingView.xib; sourceTree = "<group>"; };
+		DFDA43D42060B38100083CBA /* FailedViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FailedViewController.h; sourceTree = "<group>"; };
+		DFDA43D52060B38100083CBA /* FailedViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FailedViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DFDA43912060B14F00083CBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFDA43A92060B14F00083CBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFDA43B42060B14F00083CBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DFDA438B2060B14F00083CBA = {
+			isa = PBXGroup;
+			children = (
+				DFDA43962060B14F00083CBA /* ZMHLoadingView */,
+				DFDA43AF2060B14F00083CBA /* ZMHLoadingViewTests */,
+				DFDA43BA2060B14F00083CBA /* ZMHLoadingViewUITests */,
+				DFDA43952060B14F00083CBA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DFDA43952060B14F00083CBA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFDA43942060B14F00083CBA /* ZMHLoadingView.app */,
+				DFDA43AC2060B14F00083CBA /* ZMHLoadingViewTests.xctest */,
+				DFDA43B72060B14F00083CBA /* ZMHLoadingViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DFDA43962060B14F00083CBA /* ZMHLoadingView */ = {
+			isa = PBXGroup;
+			children = (
+				DFDA43C92060B15C00083CBA /* LoadingView */,
+				DFDA43972060B14F00083CBA /* AppDelegate.h */,
+				DFDA43982060B14F00083CBA /* AppDelegate.m */,
+				DFDA439A2060B14F00083CBA /* ViewController.h */,
+				DFDA439B2060B14F00083CBA /* ViewController.m */,
+				DFDA43D42060B38100083CBA /* FailedViewController.h */,
+				DFDA43D52060B38100083CBA /* FailedViewController.m */,
+				DFDA439D2060B14F00083CBA /* Main.storyboard */,
+				DFDA43A02060B14F00083CBA /* Assets.xcassets */,
+				DFDA43A22060B14F00083CBA /* LaunchScreen.storyboard */,
+				DFDA43A52060B14F00083CBA /* Info.plist */,
+				DFDA43A62060B14F00083CBA /* main.m */,
+			);
+			path = ZMHLoadingView;
+			sourceTree = "<group>";
+		};
+		DFDA43AF2060B14F00083CBA /* ZMHLoadingViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				DFDA43B02060B14F00083CBA /* ZMHLoadingViewTests.m */,
+				DFDA43B22060B14F00083CBA /* Info.plist */,
+			);
+			path = ZMHLoadingViewTests;
+			sourceTree = "<group>";
+		};
+		DFDA43BA2060B14F00083CBA /* ZMHLoadingViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DFDA43BB2060B14F00083CBA /* ZMHLoadingViewUITests.m */,
+				DFDA43BD2060B14F00083CBA /* Info.plist */,
+			);
+			path = ZMHLoadingViewUITests;
+			sourceTree = "<group>";
+		};
+		DFDA43C92060B15C00083CBA /* LoadingView */ = {
+			isa = PBXGroup;
+			children = (
+				DFDA43CA2060B15C00083CBA /* ZMHLoadFailedView.m */,
+				DFDA43CB2060B15C00083CBA /* ZMHLoadFailedView.xib */,
+				DFDA43CC2060B15C00083CBA /* ZMHLoadingView.m */,
+				DFDA43CD2060B15C00083CBA /* ZMHLoadFailedView.h */,
+				DFDA43CE2060B15C00083CBA /* ZMHLoadingView.h */,
+				DFDA43CF2060B15C00083CBA /* ZMHLoadingView.xib */,
+			);
+			path = LoadingView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DFDA43932060B14F00083CBA /* ZMHLoadingView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFDA43C02060B14F00083CBA /* Build configuration list for PBXNativeTarget "ZMHLoadingView" */;
+			buildPhases = (
+				DFDA43902060B14F00083CBA /* Sources */,
+				DFDA43912060B14F00083CBA /* Frameworks */,
+				DFDA43922060B14F00083CBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZMHLoadingView;
+			productName = ZMHLoadingView;
+			productReference = DFDA43942060B14F00083CBA /* ZMHLoadingView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DFDA43AB2060B14F00083CBA /* ZMHLoadingViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFDA43C32060B14F00083CBA /* Build configuration list for PBXNativeTarget "ZMHLoadingViewTests" */;
+			buildPhases = (
+				DFDA43A82060B14F00083CBA /* Sources */,
+				DFDA43A92060B14F00083CBA /* Frameworks */,
+				DFDA43AA2060B14F00083CBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFDA43AE2060B14F00083CBA /* PBXTargetDependency */,
+			);
+			name = ZMHLoadingViewTests;
+			productName = ZMHLoadingViewTests;
+			productReference = DFDA43AC2060B14F00083CBA /* ZMHLoadingViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DFDA43B62060B14F00083CBA /* ZMHLoadingViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFDA43C62060B14F00083CBA /* Build configuration list for PBXNativeTarget "ZMHLoadingViewUITests" */;
+			buildPhases = (
+				DFDA43B32060B14F00083CBA /* Sources */,
+				DFDA43B42060B14F00083CBA /* Frameworks */,
+				DFDA43B52060B14F00083CBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFDA43B92060B14F00083CBA /* PBXTargetDependency */,
+			);
+			name = ZMHLoadingViewUITests;
+			productName = ZMHLoadingViewUITests;
+			productReference = DFDA43B72060B14F00083CBA /* ZMHLoadingViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFDA438C2060B14F00083CBA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Zhang Minghui";
+				TargetAttributes = {
+					DFDA43932060B14F00083CBA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					DFDA43AB2060B14F00083CBA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DFDA43932060B14F00083CBA;
+					};
+					DFDA43B62060B14F00083CBA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DFDA43932060B14F00083CBA;
+					};
+				};
+			};
+			buildConfigurationList = DFDA438F2060B14F00083CBA /* Build configuration list for PBXProject "ZMHLoadingView" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DFDA438B2060B14F00083CBA;
+			productRefGroup = DFDA43952060B14F00083CBA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFDA43932060B14F00083CBA /* ZMHLoadingView */,
+				DFDA43AB2060B14F00083CBA /* ZMHLoadingViewTests */,
+				DFDA43B62060B14F00083CBA /* ZMHLoadingViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DFDA43922060B14F00083CBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFDA43A42060B14F00083CBA /* LaunchScreen.storyboard in Resources */,
+				DFDA43D12060B15D00083CBA /* ZMHLoadFailedView.xib in Resources */,
+				DFDA43A12060B14F00083CBA /* Assets.xcassets in Resources */,
+				DFDA439F2060B14F00083CBA /* Main.storyboard in Resources */,
+				DFDA43D32060B15D00083CBA /* ZMHLoadingView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFDA43AA2060B14F00083CBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFDA43B52060B14F00083CBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DFDA43902060B14F00083CBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFDA439C2060B14F00083CBA /* ViewController.m in Sources */,
+				DFDA43D62060B38100083CBA /* FailedViewController.m in Sources */,
+				DFDA43D02060B15D00083CBA /* ZMHLoadFailedView.m in Sources */,
+				DFDA43A72060B14F00083CBA /* main.m in Sources */,
+				DFDA43992060B14F00083CBA /* AppDelegate.m in Sources */,
+				DFDA43D22060B15D00083CBA /* ZMHLoadingView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFDA43A82060B14F00083CBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFDA43B12060B14F00083CBA /* ZMHLoadingViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFDA43B32060B14F00083CBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFDA43BC2060B14F00083CBA /* ZMHLoadingViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DFDA43AE2060B14F00083CBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFDA43932060B14F00083CBA /* ZMHLoadingView */;
+			targetProxy = DFDA43AD2060B14F00083CBA /* PBXContainerItemProxy */;
+		};
+		DFDA43B92060B14F00083CBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFDA43932060B14F00083CBA /* ZMHLoadingView */;
+			targetProxy = DFDA43B82060B14F00083CBA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DFDA439D2060B14F00083CBA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFDA439E2060B14F00083CBA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DFDA43A22060B14F00083CBA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFDA43A32060B14F00083CBA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DFDA43BE2060B14F00083CBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DFDA43BF2060B14F00083CBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DFDA43C12060B14F00083CBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 86KAHNT4S6;
+				INFOPLIST_FILE = ZMHLoadingView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ane56.ZMHLoadingView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DFDA43C22060B14F00083CBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 86KAHNT4S6;
+				INFOPLIST_FILE = ZMHLoadingView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ane56.ZMHLoadingView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DFDA43C42060B14F00083CBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 86KAHNT4S6;
+				INFOPLIST_FILE = ZMHLoadingViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ane56.ZMHLoadingViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZMHLoadingView.app/ZMHLoadingView";
+			};
+			name = Debug;
+		};
+		DFDA43C52060B14F00083CBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 86KAHNT4S6;
+				INFOPLIST_FILE = ZMHLoadingViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ane56.ZMHLoadingViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZMHLoadingView.app/ZMHLoadingView";
+			};
+			name = Release;
+		};
+		DFDA43C72060B14F00083CBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 86KAHNT4S6;
+				INFOPLIST_FILE = ZMHLoadingViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ane56.ZMHLoadingViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZMHLoadingView;
+			};
+			name = Debug;
+		};
+		DFDA43C82060B14F00083CBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 86KAHNT4S6;
+				INFOPLIST_FILE = ZMHLoadingViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ane56.ZMHLoadingViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZMHLoadingView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DFDA438F2060B14F00083CBA /* Build configuration list for PBXProject "ZMHLoadingView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFDA43BE2060B14F00083CBA /* Debug */,
+				DFDA43BF2060B14F00083CBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFDA43C02060B14F00083CBA /* Build configuration list for PBXNativeTarget "ZMHLoadingView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFDA43C12060B14F00083CBA /* Debug */,
+				DFDA43C22060B14F00083CBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFDA43C32060B14F00083CBA /* Build configuration list for PBXNativeTarget "ZMHLoadingViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFDA43C42060B14F00083CBA /* Debug */,
+				DFDA43C52060B14F00083CBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFDA43C62060B14F00083CBA /* Build configuration list for PBXNativeTarget "ZMHLoadingViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFDA43C72060B14F00083CBA /* Debug */,
+				DFDA43C82060B14F00083CBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DFDA438C2060B14F00083CBA /* Project object */;
+}
